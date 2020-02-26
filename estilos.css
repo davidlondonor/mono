@@ -41,7 +41,3 @@ body {
 #start {
     transform: rotate(315deg);
 }
-#go {
-    font-size: 40px;
-    font-family: "Squada One", cursive;
-}
