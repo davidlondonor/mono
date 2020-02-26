@@ -1,4 +1,47 @@
-* {
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+
+body {
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
+    font-family: "Titillium", sans-serif;
+    margin: 0;
+}
+#board {
+    background-color: #cde6d0;
+    border-collapse: collapse;
+    height: 800px;
+    width: 800px;
+    margin: auto;
+}
+#board td {
+    font-size: 9px;
+    border: 2px solid black;
+    padding: 4px;
+}
+#board tr {
+    height: calc(100% / 11);
+}
+#logo-container {
+    text-transform: none;
+    transform: rotate(315deg);
+}
+#logo {
+    text-align: center;
+    text-shadow: -4px 3px 0px rgba(0, 0, 0, 1);
+    font-size: 72px;
+    color: #fff;
+    margin: auto;
+    padding: 3px;
+    background-color: #ee1b24;
+    border: 3px solid black;
+}
+#chance {
+}
+#start {
+    transform: rotate(315deg);
+}
+#go {
+    font-size: 40px;
+    font-family: "Squada One", cursive;
 }
